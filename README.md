@@ -1,11 +1,12 @@
-# HelloPlaytime (Poppy Playtime GrabPack)
+# HelloPlaytime
 
-**The Poppy Playtime GrabPack in Hello Neighbor.** Pick it up in the Neighbor's house and use its hands: grab and pull
+**The Poppy Playtime GrabPack in Hello Neighbor.** Pick it up and use its hands: grab and pull
 things, swing and zip to where the green hand hooks, jump with the purple hand, set things alight with flares, power
 electric doors with the conductive hand, blast the Neighbor away with the pressure hand, and light the way with the
 red hand. No Poppy Playtime characters, just the pack.
 
-<!-- screenshot here -->
+<img width="1920" height="1080" alt="poppy 1" src="https://github.com/user-attachments/assets/d7dc05c0-0097-46f2-89b9-e85aeb96b834" />
+
 
 > Unofficial fan project, not affiliated with Mob Entertainment, tinyBuild or Dynamic Pixels. The download contains **no
 > Poppy Playtime files**: the installer builds the GrabPack, its hands, animations, textures and sounds from **your
