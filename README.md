@@ -26,6 +26,7 @@ red hand. No Poppy Playtime characters, just the pack.
   - **Pressure**: builds up pressure, then blasts things (and the Neighbor) away; cools hot objects.
 - Hands that hit windows tap, crack or break the glass, and every surface has its own sound.
 - A GrabPack icon in the inventory.
+- **Fredbear Update (1.1.0)**: works with the Fredbear Runaway mod. If Fredbear is the Neighbor, he gets his own reactions: the pressure hand throws him hard and he staggers, the conductive hand short-circuits him (sparks, jerks, powers down, reboots), flares set him on fire with his own scream. Nothing from Fredbear Runaway is included, the mod only reacts to it when it is installed; without it nothing changes.
 
 ## Requirements
 
@@ -37,7 +38,7 @@ red hand. No Poppy Playtime characters, just the pack.
 
 ## Install
 
-1. Download `HelloPlaytime-1.0.0.zip` from [Releases](../../releases) and unzip it anywhere.
+1. Download `HelloPlaytime-1.1.0.zip` from [Releases](../../releases) and unzip it anywhere. Already have an earlier HelloPlaytime installed? Just run `Install.bat` of the new one: it finds the old install and replaces it (no need to uninstall first).
 2. Close Hello Neighbor, then double-click **`Install.bat`**. It finds both games through Steam, builds the mod's
    content from your Poppy Playtime files (a minute or two), and installs the mod (with
    [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS)) into Hello Neighbor.
