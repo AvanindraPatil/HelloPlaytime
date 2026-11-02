@@ -1,15 +1,16 @@
-# HelloPlaytime (Poppy Playtime GrabPack and Huggy Wuggy)
+# HelloPlaytime (Poppy Playtime GrabPack, Huggy Wuggy and Catnap)
 
 **The Poppy Playtime GrabPack in Hello Neighbor.** Pick it up in the Neighbor's house and use its hands: grab and pull
 things, swing and zip to where the green hand hooks, jump with the purple hand, set things alight with flares, power
 electric doors with the conductive hand, blast the Neighbor away with the pressure hand, and light the way with the
-red hand. And since **1.2.0 the Neighbor is Huggy Wuggy**.
+red hand. And the Neighbor is **Huggy Wuggy** (since 1.2.0) or **Catnap** (since 1.3.0), your choice.
 
 <!-- screenshot here -->
 
 > Unofficial fan project, not affiliated with Mob Entertainment, tinyBuild or Dynamic Pixels. The download contains **no
 > Poppy Playtime files**: the installer builds the GrabPack, its hands, animations, textures and sounds from **your
-> own copy of Poppy Playtime**. Huggy Wuggy too: his model, fur, animations, textures, voice and Chapter 5's music.
+> own copy of Poppy Playtime**. Huggy Wuggy and Catnap too: their models, fur, animations, textures, voices and the
+> music of Chapters 5 and 3.
 
 ## Features
 
@@ -25,6 +26,16 @@ red hand. And since **1.2.0 the Neighbor is Huggy Wuggy**.
   - **Pressure**: builds up pressure, then blasts things (and the Neighbor) away; cools hot objects.
 - Hands that hit windows tap, crack or break the glass, and every surface has its own sound.
 - A GrabPack icon in the inventory.
+- **Catnap Update (1.3.0)**: the Neighbor can be Catnap from Chapter 3, his real model and animations, while the
+  Neighbor's AI hunts you as before. He prowls, gallops after you, climbs ladders and the walls of the house, and the
+  catch is one of Chapter 3's jumpscares. His **red sleeping gas** makes you drowsy (a meter fills, the screen blurs, you
+  slow down and can nod off), he **vanishes into the smoke** and turns up somewhere else, and **Nightmare Critters** creep
+  up behind you (look at them and they flee; flares scare them off). In the activities he sits, lies down, grooms and
+  stretches like a cat. Chapter 3's music and voices replace the Neighbor's sounds; he shows in the cutscenes, the big
+  Neighbor in the finale is a giant Catnap and the Thing is Nightmare Catnap. The GrabPack hurts him: the pressure hand
+  knocks him down, flares burn him, the conductive hand shocks him. **F9** turns him off / on, **F10** picks the next
+  jumpscare, **F11** sends a Critter. `Choose-Character.bat` switches between Huggy Wuggy, Catnap and the normal Neighbor.
+  The GrabPack also got a flare counter (a limit of flares that refill one by one) and an empty click.
 - **Huggy Wuggy Update (1.2.0)**: the Neighbor is Huggy Wuggy, Chapter 5's Huggy with his fur and his own animations,
   while the Neighbor's AI hunts you as before. He walks, hunts hunched, sprints after you, ducks under door frames,
   roars when he spots you and swings his long arms at you; when he catches you, Poppy Playtime's jumpscare. His voice,
@@ -37,15 +48,16 @@ red hand. And since **1.2.0 the Neighbor is Huggy Wuggy**.
 
 - **Hello Neighbor** (full game) on Steam, on Windows
 - **Poppy Playtime** on Steam with **Chapters 3, 4 and 5** installed (the GrabPack, hands and animations come from
-  Chapter 5, some sounds from Chapters 3 and 4; Huggy from Chapter 5, his classic look for the finale from Chapter 4). It can be in any Steam library.
+  Chapter 5, some sounds from Chapters 3 and 4; Huggy from Chapter 5, his classic look for the finale from Chapter 4;
+  Catnap and the Critters from Chapter 3). It can be in any Steam library.
 - An internet connection the first time you install (the installer downloads the Oodle decompressor that Poppy
   Playtime's files are packed with), and about 1 GB of free disk space while it installs.
 
 ## Install
 
-1. Download `HelloPlaytime-1.2.0.zip` from [Releases](../../releases) and unzip it anywhere. Already have an earlier HelloPlaytime installed? Just run `Install.bat` of the new one: it finds the old install and replaces it (no need to uninstall first).
+1. Download `HelloPlaytime-1.3.0.zip` from [Releases](../../releases) and unzip it anywhere. Already have an earlier HelloPlaytime installed? Just run `Install.bat` of the new one: it finds the old install and replaces it (no need to uninstall first).
 2. Close Hello Neighbor, then double-click **`Install.bat`**. It finds both games through Steam, builds the mod's
-   content from your Poppy Playtime files (about five minutes, most of it for Huggy), and installs the mod (with
+   content from your Poppy Playtime files (about ten minutes, most of it for Huggy and Catnap), and installs the mod (with
    [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS)) into Hello Neighbor.
    - Windows may warn about running a script from the internet. Choose "More info", then "Run anyway".
 3. Start Hello Neighbor from Steam as usual and load a level. The GrabPack lies in front of you: pick it up with **E**.
@@ -61,7 +73,8 @@ red hand. And since **1.2.0 the Neighbor is Huggy Wuggy**.
 | X | put it down (hold: throw) |
 | F7 | bring the GrabPack back to you |
 | F8 | the GrabPack on / off |
-| F9 | Huggy Wuggy on / off (the normal Neighbor) |
+| F9 | Huggy Wuggy / Catnap on / off (the normal Neighbor) |
+| F10 / F11 | Catnap: pick the next jumpscare / send a Nightmare Critter |
 | F6 | watch camera on Huggy (again: next view, then back to you) |
 
 ## Uninstall
@@ -73,11 +86,11 @@ installer put it there. Poppy Playtime itself is never changed.
 
 Only Hello Neighbor's folder:
 - UE4SS: `dwmapi.dll` and the `ue4ss` folder in `HelloNeighbor\Binaries\Win64`
-- the mod's UE4SS mods (`Grabpack`, `Huggy`) and their content paks in `HelloNeighbor\Content\Paks\Grabpack` and `...\Paks\Huggy`
+- the mod's UE4SS mods (`Grabpack`, `Huggy`, `Catnap`) and their content paks in `HelloNeighbor\Content\Paks\Grabpack`, `...\Paks\Huggy` and `...\Paks\Catnap` (Huggy's and Catnap's replace the same Neighbor sounds, so only the chosen character's pak is live)
 
 ## Credits and licence
 
 Code: MIT (see `LICENSE`). Bundled in the download: [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) (MIT),
 [CUE4Parse](https://github.com/FabianFG/CUE4Parse) (Apache-2.0) and [vgmstream](https://github.com/vgmstream/vgmstream)
-(ISC), and for building Huggy at install time a private Python 3.12 with NumPy, SciPy, Pillow and python-soundfile; details in `THIRD-PARTY-NOTICES.txt`. Poppy Playtime, the GrabPack and Huggy Wuggy are Mob Entertainment's; Hello Neighbor
+(ISC), and for building Huggy and Catnap at install time a private Python 3.12 with NumPy, SciPy, Pillow and python-soundfile; details in `THIRD-PARTY-NOTICES.txt`. Poppy Playtime, the GrabPack, Huggy Wuggy and Catnap are Mob Entertainment's; Hello Neighbor
 is tinyBuild's. Built with AI assistance (Claude).
